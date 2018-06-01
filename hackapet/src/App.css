@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  background-color: black;
+  position:fixed;
+  padding:0;
+  margin:0;
+
+  top:0;
+  left:0;
+
+  width: 100%;
+  height: 100%;
+}
+
+
+.App-title {
+  font-size: 1.5em;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+.mc_embed_signup{
+background:#fff; 
+clear:left; 
+font:14px Helvetica,Arial,sans-serif; 
+}
