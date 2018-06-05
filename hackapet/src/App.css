@@ -21,8 +21,10 @@
 .App-intro {
   font-size: large;
 }
-.mc_embed_signup{
-background:#fff; 
-clear:left; 
-font:14px Helvetica,Arial,sans-serif; 
+button{
+	background-color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #FF6859;
+	border: 1px solid #FF6859;
 }
