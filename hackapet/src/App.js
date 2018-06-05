@@ -41,7 +41,19 @@ export default class App extends Component {
                 <p><Input placeholder='Email' onChange={this.handleEmailChange}/></p>
                 <Button onClick={() => subscribe({EMAIL: this.state.email, NAME: this.state.name})}>
                   Subscribe
-                </Button>
+                  </Button>
+                  {status === "error" && (
+                    <div
+                      style={{ color: "red" }}
+                      dangerouslySetInnerHTML={{ __html: message }}
+                    />
+                   )}
+                {status === "success" && (
+                  <div
+                    style={{ color: "green" }}
+                    dangerouslySetInnerHTML={{ __html: message }}
+                  />
+                )}
               </div>
             );
           }}
