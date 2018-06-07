@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Input, Container, Icon } from 'semantic-ui-react';
 import MailchimpSubscribe from 'react-mailchimp-subscribe';
+import Message from './Message';
 import logo from './logo.gif';
 import './App.css';
 
@@ -26,11 +27,13 @@ export default class App extends Component {
     });
   }
 
-  sendSubscription = (callback) => {
+  sendSubscription = () => {
     this.setState({
       sent: true
     });
   }
+
+
 
   render() {
     return (
@@ -39,7 +42,7 @@ export default class App extends Component {
         {this.state.sent ?
           <div>
             <p className="App-title">
-              Inscrição feita com sucesso
+              <Message/>
             </p>
           </div>:
           <div>
@@ -64,11 +67,13 @@ export default class App extends Component {
                     <br />
                     <br />
                     <Button
-                      onClick={() => this.sendSubscription(() => subscribe({ EMAIL: this.state.email, NAME: this.state.name }))}
+                      onClick={() => subscribe({ EMAIL: this.state.email, FNAME: this.state.name })}
                       circular={true}
                       color='orange'>
                       <p className="Button-subs">Subscribe</p>
+                      {console.log(this.state.sent)}
                     </Button>
+                    {status === 'success' && this.sendSubscription()}
                   </Container>
                 );
               }}
