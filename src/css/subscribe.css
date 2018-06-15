@@ -1,0 +1,29 @@
+.subscribe {
+  text-align: center;
+}
+
+.subscribe-title {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 18px;
+  color: white;
+}
+
+.subscribe-intro {
+  font-size: large;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ff6859;
+  border: 1px solid #ff6859;
+}
+
+.Button-subs {
+  font-family: "Share Tech Mono", monospace;
+  color: white;
+}
+
+.bordas {
+  border: 1px solid blue;
+}

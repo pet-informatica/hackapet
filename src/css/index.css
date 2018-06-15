@@ -1,5 +1,50 @@
 body {
+  background: #080708;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.index-page {
+  margin-bottom: 140;
+}
+
+.index-anchor {
+  display: block;
+  position: relative;
+  top: -40px;
+  visibility: hidden;
+}
+
+.index-subscribe {
+  background: black;
+}
+
+.index-navbar {
+  background: #1b1c1d;
+}
+
+.ui.inverted.menu {
+  font-size: 17px;
+  font-family: "Share Tech Mono", monospace;
+  color: #f7f0f0;
+}
+
+.ui.segment {
+  color: white;
+  background: #1b1c1d;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.ui.header {
+  color: white;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.index-logo {
+  margin-top: 20px;
+}
+
+.index-logo-container {
+  text-align: center;
 }
