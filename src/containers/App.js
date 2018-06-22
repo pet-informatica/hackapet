@@ -13,13 +13,10 @@ export default class App extends Component {
         header: "O que?",
         content: (
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+           Problemas na graduação é algo que é comum a todos nós, mas como bons CIners a gente odeia
+           ficar só reclamando sem colocar a mão na massa e resolver os problemas que nos afligem.
+           Sim, as vezes nos sentimos de mãos atadas e sem saber o que fazer. Em sua primeira edição
+           o HACKAPET traz o tema Educação focando em encontrar soluções para nós mesmos, alunos do CIn.
           </p>
         )
       },
@@ -28,13 +25,9 @@ export default class App extends Component {
         header: "Para quem?",
         content: (
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            O Hackathon busca integrar todos os alunos do CIn porém de formas diferentes. Os alunos do 1º ao 4º período
+            dos três cursos podem participar como competidores e os alunos do 5º ao 10º podem participar como tutores 
+            ministrando workshops de tecnologias que serão usadas durante o evento. 
           </p>
         )
       },
@@ -43,13 +36,9 @@ export default class App extends Component {
         header: "Como?",
         content: (
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            A ideia antes de tudo é trocar experiências e sobretudo aprender. Para isso, todo o processo será acompanhado por
+            uma equipe usando a metodologia Problem Based Learning - PBL. Metodologia usada pelo PET-Informática em suas 
+            atividades que usa solução de problemas para gerar aprendizagem.
           </p>
         )
       },
@@ -58,13 +47,7 @@ export default class App extends Component {
         header: "Onde?",
         content: (
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+           Centro de Informática - UFPE
           </p>
         )
       },
@@ -73,13 +56,7 @@ export default class App extends Component {
         header: "Quando?",
         content: (
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+           O HACKAPET vai acontecer nos dias 9 e 10 de agosto de 2018, totalizando 36 horas de imersão. 
           </p>
         )
       },
@@ -88,13 +65,41 @@ export default class App extends Component {
         header: "Mas e...?",
         content: (
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+             <p className="question">Mas eu não sei nada, como vou participar de um hackathon? <br/></p>
+            Nosso intuito é exatamente esse! Aprender coisas novas colocando a mão na massa e resolvendo problemas. Além disso,
+            durante o evento serão oferecidos vários workshops de variadas áreas que você pode aplicar no seu projeto e
+            ir aprendendo junto com seu time. 
+
+            <br/><br/>
+            <p className="question">Como fica alimentação?<br/></p>
+            Nós vamos oferecer alguns snacks durante o evento, mas as refeições são por sua conta. 
+
+            <br/><br/>
+
+            <p className="question">Preciso levar computador?<br/></p>
+            Os computadores do CIn estarão disponíveis para nós, mas fique à vontade para trazer seu bebê. Os grads serão divulgados em breve.
+
+            <br/><br/>
+
+            <p className="question">Não sou aluno do CIn, posso participar?<br/></p> 
+            O evento é exclusivo para alunos dos cursos de Ciência da Computação, Engenharia da Computação e Sistemas da Informção
+            do Centro de Informática.
+
+            <br/><br/>
+
+            <p className="question">Quanto que vai custar?<br/></p> 
+            As inscrições serão abertas em breve e serão no valor de 30 reais. O evento é 
+            100% sem fins lucrativos e toda a renda obtida será convertida para o próprio evento.
+
+            <br/><br/>
+
+            <p className="question">Preciso chegar com a equipe formada?<br/></p> 
+            Não. Quando levantarmos os problemas e quais as soluções que devem ser desenvolvidas, as equipes podem ser formadas.
+            Mas se você já vier com seu time pronto, também não tem problema. 
+
+            <br/><br/>
+
+           
           </p>
         )
       },
@@ -103,13 +108,7 @@ export default class App extends Component {
         header: "Inscrições",
         content: (
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Em breve!
           </p>
         )
       }

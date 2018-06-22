@@ -7,7 +7,7 @@ export default class Section extends Component {
     return (
       <Container text className="section-container">
         <Segment>
-          <Header as="h3" textAlign="left">
+          <Header as="h3" textAlign="left" color="orange">
             {this.props.title}
             {this.props.icon != null && (
               <Icon name={this.props.icon} color="grey" />
