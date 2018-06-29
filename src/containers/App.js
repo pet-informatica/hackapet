@@ -25,9 +25,9 @@ export default class App extends Component {
         header: "Para quem?",
         content: (
           <p>
-            O Hackathon busca integrar todos os alunos do CIn porém de formas diferentes. Os alunos do 1º ao 4º período
-            dos três cursos podem participar como competidores e os alunos do 5º ao 10º podem participar como tutores 
-            ministrando workshops de tecnologias que serão usadas durante o evento. 
+            O Hackathon busca integrar todos os alunos do CIn porém de formas diferentes. Os alunos do 1º ao 5º período (2016.1 até 2018.1)
+            dos três cursos podem participar como competidores e qualquer aluno pode participar como tutor
+            ministrando workshops de tecnologias que serão usadas durante o evento.
           </p>
         )
       },

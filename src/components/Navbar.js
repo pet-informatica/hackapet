@@ -8,10 +8,9 @@ const items = [
   { href: "#onde", key: "onde", name: "Onde" },
   { href: "#quando", key: "quando", name: "Quando" },
   { href: "#mas-e", key: "mas-e", name: "Mas e..." },
-  { href: "#inscricoes", key: "inscricoes", name: "Inscrições" },
-
+  { href: "#inscricoes", key: "inscricoes", name: "Inscrições" }
 ];
 
-const Navbar = () => <Menu inverted items={items} />;
+const Navbar = () => <Menu inverted items={items} stackable/>;
 
 export default Navbar;
