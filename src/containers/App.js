@@ -108,11 +108,17 @@ export default class App extends Component {
         header: "Inscrições",
         content: (
           <p>
-            Em breve!
+            As inscrições finalmente estão abertas e podem ser feitas pelos seguintes links:
+            <br/><br/>
+            <a href="https://goo.gl/forms/EvdeUAlWhaDseMR13" target="_blank" rel="noopener noreferrer">Inscrições para participantes</a>
+            <br/>
+            <a href="https://goo.gl/forms/BYhPSvYzhOrw0i843" target="_blank" rel="noopener noreferrer">Inscrições para tutores</a>
           </p>
+          
         )
       }
     ];
+
     return (
       <div>
         <div className="index-page">
